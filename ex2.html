@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin:0;
+            min-height: 100%;
+            padding: 2em;
+            background-color: #262626;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .main {
+            display: flex;
+            flex: 1;
+            min-width: 0;
+            /* min-height: 0; */
+          
+            background-color: #263b50;
+
+        }
+
+        .side {
+            flex: 0 0 3em;
+
+        }
+
+        .left-section {
+            flex: 1;
+            min-width: 0;
+            margin-right: 3em;
+            background-color: rgb(77, 142, 168);
+
+        }
+
+        .right-section {
+            flex: 0 0 10em;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            padding:1em;
+            min-height: 0;
+            margin-right: 1em;
+            background-color: #f2b18e;
+
+        }
+
+        .item {
+            flex: 1;
+            min-height: 100px;
+            background-color: skyblue;
+        }
+        </style>
+</head>
+<body>
+    <div class = "main">
+        <div class="side"></div>
+        <div class="left-section"></div>
+        <div class="right-section">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            </div>
+
+
+            <div class="side"></div>
+            
+
+
+    </div>
+    
+</body>
+</html>
